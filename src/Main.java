@@ -11,7 +11,6 @@ public class Main {
 
         papers.imprimir();
 
-
         // para instanciar una novela String titulo, String autor, double precio, String tipo
 
         Novelas elantris = new Novelas("Elantris", "Brandon Sanderson", 55, "Fantasía");
