@@ -6,8 +6,8 @@ public class Gato extends Gatos{
         super(tipoDeAnimal);
     }
 
-    public Gato(String tipoDeAnimal, String tipo, String nombre, int edad, String color) {
-        super(tipoDeAnimal, tipo, nombre, edad, color);
+    public Gato(String tipoDeAnimal, String tipo, String raza, String nombre, int edad, String color) {
+        super(tipoDeAnimal, tipo, raza, nombre, edad, color);
     }
 
     @Override

@@ -7,5 +7,10 @@ public abstract class Mascotas {
     public Mascotas(String tipoDeAnimal) {
         this.tipoDeAnimal = tipoDeAnimal;
     }
+
+    public String getTipoDeAnimal() {
+        return tipoDeAnimal;
+    }
+
     public abstract void sonido();
 }

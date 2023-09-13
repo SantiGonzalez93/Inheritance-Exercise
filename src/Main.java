@@ -1,5 +1,6 @@
 import Exercise1.Libro_De_Texto;
 import Exercise1.Novelas;
+import TiendaMascotas.Perro;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,5 +17,20 @@ public class Main {
         Novelas elantris = new Novelas("Elantris", "Brandon Sanderson", 55, "Fantasía");
 
         elantris.imprimir();
+
+        // Exercise number 2
+        //String tipoDeAnimal, String tamaño, String raza, String nombre, int edad, String color, boolean muerde
+
+        Perro wolf = new Perro("Perro", "Grande", "Obejero Belga", "Wolf", 13, "Negro", false);
+        System.out.println(wolf.getTipoDeAnimal());
+        System.out.println(wolf.getTamaño());
+        System.out.println(wolf.getColor());
+        System.out.println(wolf.getRaza());
+        System.out.println(wolf.getNombre());
+        System.out.println(wolf.getEdad());
+
+        wolf.sonido();
+
+
     }
 }

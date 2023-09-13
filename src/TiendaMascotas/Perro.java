@@ -9,6 +9,7 @@ public class Perro extends Perros{
         super(tipoDeAnimal, tamaño, raza, nombre, edad, color, muerde);
     }
 
+
     @Override
     public void sonido() {
         super.sonido();

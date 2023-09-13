@@ -24,6 +24,30 @@ public abstract class Perros extends Mascotas {
         this.muerde = muerde;
     }
 
+    public String getTamaño() {
+        return tamaño;
+    }
+
+    public String getRaza() {
+        return raza;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public boolean isMuerde() {
+        return muerde;
+    }
+
     @Override
     public void sonido() {
         System.out.println("Los perros ladran");
