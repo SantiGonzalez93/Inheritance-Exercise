@@ -12,5 +12,5 @@ public abstract class Mascotas {
         return tipoDeAnimal;
     }
 
-    public abstract void sonido();
+    public  abstract void sonido();
 }

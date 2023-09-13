@@ -21,9 +21,10 @@ public class Main {
         // Exercise number 2
         //String tipoDeAnimal, String tamaño, String raza, String nombre, int edad, String color, boolean muerde
 
-        Perro wolf = new Perro("Perro", "Grande", "Obejero Belga", "Wolf", 13, "Negro", false);
+        Perro wolf = new Perro("Perro", "Grande", 56, "Obejero Belga", "Wolf", 13, "Negro", false);
         System.out.println(wolf.getTipoDeAnimal());
         System.out.println(wolf.getTamaño());
+        System.out.println(wolf.getPeso());
         System.out.println(wolf.getColor());
         System.out.println(wolf.getRaza());
         System.out.println(wolf.getNombre());

@@ -3,6 +3,7 @@ package TiendaMascotas;
 public abstract class Perros extends Mascotas {
 
     protected String tamaño;
+    protected double peso;
     protected String raza;
     protected String nombre;
     protected int edad;
@@ -14,14 +15,19 @@ public abstract class Perros extends Mascotas {
         super(tipoDeAnimal);
     }
 
-    public Perros(String tipoDeAnimal, String tamaño, String raza, String nombre, int edad, String color, boolean muerde) {
+    public Perros(String tipoDeAnimal, String tamaño, double peso, String raza, String nombre, int edad, String color, boolean muerde) {
         super(tipoDeAnimal);
         this.tamaño = tamaño;
+        this.peso = peso;
         this.raza = raza;
         this.nombre = nombre;
         this.edad = edad;
         this.color = color;
         this.muerde = muerde;
+    }
+
+    public double getPeso() {
+        return peso;
     }
 
     public String getTamaño() {
